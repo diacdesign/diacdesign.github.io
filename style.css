@@ -1,3 +1,11 @@
+.font-serif {
+  font-family: "Instrument Serif", serif;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
 .desktop {
   background-color: #000000;
   overflow: hidden;
