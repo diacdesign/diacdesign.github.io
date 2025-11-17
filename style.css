@@ -459,3 +459,60 @@
   z-index: 1;
   pointer-events: none;
 }
+
+/* ====== FIX TIPOGRAFÍAS ====== */
+
+/* 1) Bison para títulos grandes */
+.graphic-motion .text-wrapper {
+  font-family: "BisonBold", sans-serif !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+}
+
+/* 2) Instrument Serif normal para los spans */
+.graphic-motion .span,
+.group .span,
+.text-wrapper-3,
+.text-wrapper-4 {
+  font-family: "Instrument Serif", serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  color: #ffffff !important;
+}
+
+/* 3) Instrument Serif Italic para text-wrapper-5 */
+.text-wrapper-5 {
+  font-family: "Instrument Serif", serif !important;
+  font-style: italic !important;
+  color: #baa278 !important;
+}
+
+/* 4) Navbar tipografías */
+.text-wrapper-6,
+.text-wrapper-7,
+.text-wrapper-8,
+.text-wrapper-9 {
+  font-family: "Instrument Serif", serif !important;
+  font-weight: 400 !important;
+}
+
+/* 5) Bloque “Need fast & reliable” */
+.need-fast-reliable {
+  font-family: "Instrument Serif", serif !important;
+}
+
+/* 6) Títulos "Nicolás" y frase de abajo */
+.text-wrapper-10 {
+  font-family: "BisonBold", sans-serif !important;
+}
+
+.text-wrapper-11 {
+  font-family: "Instrument Serif", serif !important;
+  font-style: italic !important;
+}
+
+/* 7) Botones */
+.request-a-sample {
+  font-family: "Instrument Serif", serif !important;
+}
+
